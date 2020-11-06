@@ -19,4 +19,6 @@ Route::get('/', function () {
 
 Auth::routes();
 
+Route::resource('flashcards', 'App\Http\Controllers\FlashcardController');
+
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

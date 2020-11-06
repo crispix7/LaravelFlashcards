@@ -19,7 +19,7 @@ class CreateFlashcardsTable extends Migration
             $table->string('answer');
             $table->string('question_img');
             $table->string('answer_img');
-            $table->date('last_view')
+            $table->date('last_view');
             $table->timestamps();
         });
     }
