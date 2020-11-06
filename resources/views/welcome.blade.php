@@ -14,5 +14,6 @@
             @endguest
         </p>
     </div>
+    <example-component></example-component>
 </div>
 @endsection
